@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*= require jquery.ui.slider
+ */
+
+@import "bootstrap";
+
+.play_btn{
+/*  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwLjQ1IiBzdG9wLWNvbG9yPSIjYmZjZWUzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSJyZ2IoODUsIDExNSwgMTE3KSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNnMSkiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, center top, center bottom, color-stop(45%, #bfcee3), color-stop(100%, rgb(85, 115, 117)));
+  background-image: -webkit-linear-gradient(top, #bfcee3 45%, #183e35 132%);
+  background-image: -moz-linear-gradient(top, #bfcee3 45%, #183e35 132%);
+  background-image: -ms-linear-gradient(top, #bfcee3 45%, #183e35 132%);
+  background-image: -o-linear-gradient(top, #bfcee3 45%, #183e35 132%);
+  backgroun*/d-image: linear-gradient(to bottom, #bfcee3 45%, #183e35 132%);
+  border-radius:10px;
+  width:100px;
+  height:100px;
+  display:inline-block;
+  margin:5px 0px 0px 5px;
+  float:left;
+}
+#stopall{
+  width:50px;
+  height:50px;
+}
+#playall{
+  width:50px;
+  height:50px;
+}
+#audio_console{
+  float: left;
+  width: 800px;
+}
+#master_vol{
+  float: left;
+  margin-left: 250px;
+}
+.deck{
+  float:left;
+  width:180px;
+  margin-left: 20px;
+}
+#wrapper{
+  margin: 0px auto;
+  width: 1060px;
+  margin-top: 50px;
+}
+.clear{
+  clear:both;
+}
+#tempo{
+  margin-left: 20px;
+  width: 250px;
+  float: left;
+}
+.lable_slider{
+  float: left;
+  margin-left: 20px;
+}
+.percentage{
+  float: right;
+  margin-right: 10px;
+}
+.slider_vert{
+  height:200px;
+  margin-left: 50px;
+}
+#master_volume{
+  width: 100px;
+}
+.volume{
+  margin: 10px 0px 0px 20px;
+}
+.slave{
+  width:100px;
+  margin-top: 10px;
+}
+.bpm_label{
+  margin-top: 10px;
+}
+#right_nav{
+  float:right;
+  width: 250px;
+}
+  #right_nav form{
+    margin-top: 40px;
+  }
+li{
+  list-style-type: none;
+}
+#project_name{
+  float: left;
+}
+#project_name{
+  float:left;
+  margin-left: 20px;
+  font-size: 50px;
+}

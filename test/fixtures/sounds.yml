@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sound_file: MyText
+  bpm: 1.5
+  project: 
+
+two:
+  sound_file: MyText
+  bpm: 1.5
+  project: 

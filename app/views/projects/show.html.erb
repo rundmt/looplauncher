@@ -1,0 +1,90 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">Loop Launcher</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="webaudio_projects.html">Dashboard</a></li>
+              </ul>
+              <p class="navbar-text pull-right">
+                Yo, Derek
+              </p>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+      <div id='wrapper'>
+        <div id='top_wrapper'>
+          <h2 id='project_name'>Mix it Up</h2>
+          <div class='clear'></div>
+        	<div id='tempo'>
+            <h2>Master Tempo</h2>
+            <input class='tempo' id="master_tempo" type="number" step="any" value = '120'>
+          </div>
+          <div id='master_vol'>
+              <h2>Master Volume</h2>
+              <div class='slider' id="master_volume">
+            </div>
+          <div class='clear'></div>
+        </div>
+        <div class='clear'></div>
+        <div id='right_nav'>
+          <!-- <h3>Add Sounds</h3>
+          <input id='file' type='file'> -->
+          <h3>Play/Stop All</h3><br>
+          <button class="btn btn-large btn-success play_btn beatbox1" type="button" id='playall'><i class="icon-play icon-white"></i></button>
+          <button class="btn btn-large btn-danger play_btn beatbox1" type="button" id='stopall'><i class="icon-stop icon-white"></i></button>
+          <div class='clear'></div>
+          <p>Effects</p>
+          <div class="slider effect" id="freq-vertical"></div>
+        </div>
+        
+        <div id='audio_console'>
+          <div class='deck'>
+            <h2>Night Out</h2>
+            <button class="btn btn-large btn-success play_btn beatbox1" type="button" id='start1'><i class="icon-play icon-white"></i></button>
+            <button class="btn btn-large btn-danger play_btn beatbox1" type="button" id='stop1'><i class="icon-stop icon-white"></i></button>
+            <div class='clear'></div>    
+            <label class="bpm_label">Track BPM</label>
+            <input class='tempo slave' id="song_tempo1" type="number" step="any" value='128'>
+            <p class="volume">Volume</p>
+            <div class="slider slider_vert" id="slider-vertical1"></div>
+          </div>
+          <div class='deck'>
+            <h2>Barbra</h2>
+            <button class="btn btn-large btn-success play_btn beatbox1" type="button" id='start2'><i class="icon-play icon-white"></i></button>
+            <button class="btn btn-large btn-danger play_btn beatbox1" type="button" id='stop2'><i class="icon-stop icon-white"></i></button>
+            <div class='clear'></div>    
+            <label class="bpm_label">Track BPM</label>
+            <input class='tempo slave' id="song_tempo2" type="number" step="any" value='128'>
+            <p class="volume">Volume</p>
+            <div class="slider slider_vert" id="slider-vertical2"></div>
+          </div>
+          <div class='deck'>
+            <h2>Streisand</h2>
+            <button class="btn btn-large btn-success play_btn beatbox1" type="button" id='start3'><i class="icon-play icon-white"></i></button>
+            <button class="btn btn-large btn-danger play_btn beatbox1" type="button" id='stop3'><i class="icon-stop icon-white"></i></button>
+            <div class='clear'></div>    
+            <label class="bpm_label">Track BPM</label>
+            <input class='tempo slave' id="song_tempo3" type="number" step="any" value='128'>
+            <p class="volume">Volume</p>
+            <div class="slider slider_vert" id="slider-vertical3"></div>
+          </div>
+          <div class='deck'>
+            <h2>Acapella</h2>
+            <button class="btn btn-large btn-success play_btn beatbox1" type="button" id='start4'><i class="icon-play icon-white"></i></button>
+            <button class="btn btn-large btn-danger play_btn beatbox1" type="button" id='stop4'><i class="icon-stop icon-white"></i></button>
+            <div class='clear'></div>    
+            <label class="bpm_label">Track BPM</label>
+            <input class='tempo slave' id="song_tempo4" type="number" step="any" value='128'>
+            <p class="volume">Volume</p>
+            <div class="slider slider_vert" id="slider-vertical4"></div>
+          </div>        
+      </div>
+      <div class='clear'></div>
+    </div>

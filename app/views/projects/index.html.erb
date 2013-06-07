@@ -1,0 +1,62 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="navbar-inner">
+	        <div class="container">
+	          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="brand" href="#">Loop Launcher</a>
+	          <div class="nav-collapse collapse">
+	            <ul class="nav">
+	              <li class="active"><a href="#">Dashboard</a></li>	              
+	            </ul>
+	            <p class="navbar-text pull-right">
+	              Yo, Skeletor
+	            </p>
+	            
+	          </div><!--/.nav-collapse -->
+	        </div>
+	      </div>
+	    </div>
+	    <div id='wrapper'>
+	    	<h2>Dashboard</h2>
+	    	<h3>Create New Project</h3>
+	    		<form action='/projects/new'>
+	    			<input type='input' name='project[name]'>
+	    			<input type='hidden' name='project[user_id]' value='1'>
+	    			<input class='btn' type='submit' value='Create New Project'>
+	    		</form>
+	    	<table class='table table-bordered table-hover'>
+	    		<thead>
+	    			<tr>
+		    			<th>Project Name</th>
+		    			<th>Last Motified</th>
+		    			<th>Edit</th>
+		    			<th>Delete</th>
+		    		</tr>
+	    		</thead>
+	    		<tbody>
+	    			<tr>
+		    			<td>Project Name 1</Name>
+		    			<td>1 day Ago</td>
+		    			<td><a href="webaudio.html">Edit</a></td>
+		    			<td>
+		    				<form>
+		    					<input class='btn' type='submit' value='Delete'>
+		    				</form>	
+		    			</td>
+		    		</tr>
+		    		<tr>
+		    			<td>Project Name 2</Name>
+		    			<td>1 day Ago</td>
+		    			<td><a href="webaudio.html">Edit</a></td>
+		    			<td>
+		    				<form>
+		    					<input class='btn' type='submit' value='Delete'>
+		    				</form>	
+		    			</td>
+		    		</tr>
+	    		</tbody>
+	    	</table>
+	    </div>
